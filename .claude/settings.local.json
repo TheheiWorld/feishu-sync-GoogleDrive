@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(sw_vers)",
+      "Bash(swift --version)",
+      "Bash(xcodebuild -version)",
+      "WebSearch",
+      "Bash(swift build:*)",
+      "Bash(chmod:*)",
+      "Bash(bash scripts/build-dmg.sh 2>&1)"
+    ]
+  }
+}
